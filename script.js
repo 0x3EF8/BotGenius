@@ -9,7 +9,8 @@ window.addEventListener("load", function () {
 
 // Typing animation for the agreement label
 const agreementLabel = document.getElementById('agreementLabel');
-const agreementText = "By checking this box, I acknowledge that unauthorized use of Facebook cookies is strictly prohibited...";
+const agreementText = "By checking this box, I acknowledge that unauthorized use of Facebook cookies is strictly prohibited. I understand that any suspicious activity may lead to the disabling or locking of my Facebook account.
+";
 let agreementIndex = 0;
 let agreementTypingInterval;
 
